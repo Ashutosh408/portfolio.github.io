@@ -1,0 +1,95 @@
+*{margin:0; padding:0px;}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+p,a,li{
+font-family: 'Montserrat', sans-serif;
+}
+ul,li,a{
+	list-style-type:none;
+	text-decoration:none;
+}
+
+.form-area{
+	float: left;
+	box-shadow:0px 0px 1px 1px;
+	border:1px solid #0f5bb0;
+	margin-left:2%;
+	width:95%
+	
+}
+
+.form-area h2{
+     color: #0399d8;
+    margin: 3% 0% 4% 30%;
+}
+.form-area p{
+	font-size:20px;
+	padding:3px 0px 0px 10px;
+}
+.form-area p a{
+	color:#0f5bb0;
+}
+.form-arae1 {
+    margin: 5% 0% 0% 25%;
+    width: 60%;
+    border: 1px solid #0f54b2;
+	box-shadow:0px 0px 1px 1px;
+}
+#main-form li{
+	padding: 10px 0px ;
+   
+}
+
+#main-form label{
+width: 20%;
+    color: #0f5bb0;
+    font-size: 20px;
+    display: block;
+    float: left;
+    margin: 2% 0% 0% 20%;
+}
+
+#main-form 
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel]{
+font-size: 16px;
+    color: #2d2d2d;
+    padding-left: 10px;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 0px 0px;
+    width: 40%;
+}
+
+input[type="radio"] {
+    margin: 3% 0%;
+}
+
+
+
+#main-form select[name=male]{
+ width: 400px;
+ height: 30px;
+}
+
+#main-form input[name=submit]{
+    padding: 5px 0px 5px 10px;
+    background: #da8328;
+    border: 1px;
+    color: #fff;
+    font-size: 17px;
+    width: 21%;
+	margin: 6% 0% 4% 41%;
+}
+
+#main-form input[name=reset]{
+    padding: 5px 0px 5px 10px;
+    background: #da8328;
+    border: 1px;
+    color: #fff;
+    font-size: 17px;
+    width: 21%;
+}

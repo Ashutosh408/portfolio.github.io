@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond:500" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style/main-css1.css"> 
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body background="image/texture.jpg">
+		<div class="container-fluid bg" id="bg-1">
+			<div class="row">
+				<div class="col-md-12 top"></div>
+			</div>
+			<div class="container">
+					<div class="row head">
+						<div class="col-md-8 logo">
+							<img onclick="fun1()" src="image/logo.png">
+							<p>Ashutosh Saini</p>
+							<p>UI Developer</p>
+						</div>
+						<div class="col-md-4 menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="contact.html">Contact</a></li>								
+							</ul>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 main-2">
+							<p class="p-1">Hello!</p>
+							<p class="p-2">I make beautiful, usable websites& interfaces.</p>
+							<p class="p-3">///////////////////////////////////////////////////////////////////////////</p>						
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+						
+							<div  class="col-md-7 pc">
+								<img src="image/pc1.png">
+							</div>
+							<div  class="col-md-5 site-1">
+								<p class="p-3">Project:<span class="p-4">E-Commerce</span></p>
+								<p class="p-7">This is E-Commerce Web Page.I have designed it using HTML, CSS and JAVASCRIPT.</p>
+								<p class="p-7">Working:-</p>
+								<p class="p-7">1. Log In & Sign Up page with validation.</p>
+								<p class="p-7">2. JavaScript used in changing video when click on Thumbnail.</p>
+								<p class="p-7">3. Clicking on next and & previous button image changer.</p>
+								<p class="p-7">4. Embaded Map linked.</p>
+								
+								<button style="vertical-align:middle" onclick="window.open('pages/E-commerce/index.html')" class="btn-1"><span>View Site</span></button>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+						<p class="p-3">///////////////////////////////////////////////////////////////////////////</p>							
+							<div  class="col-md-5 site-1">
+								<p class="p-3">Project:<span class="p-4">Health Care</span></p>
+								<p class="p-7">This web page is made using HTML and CSS. It has five pages i.e. Home, About, Gallary, Doctors and Contact.
+								This is the seed of the idea, through to sketches, design and even the front-end  I can jump in at any stage of
+								the project, or take on the whole project, from designto build.</p>
+								<button style="vertical-align:middle" onclick="window.open('pages/health-care/home.html')" class="btn-1"><span>View Site</span></button>
+							</div>
+							<div  class="col-md-7 pc">
+								<img src="image/pc3.png">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+								<p class="p-3">///////////////////////////////////////////////////////////////////////////</p>							
+							<div  class="col-md-7 pc">
+								<img src="image/pc2.png">
+							</div>
+							<div  class="col-md-5 site-1">
+								<p class="p-3">Project:<span class="p-4">E-Mailer</span></p>
+								<p class="p-7">This is the email template that i have designed using html css and bootstrap.</p>
+								<button style="vertical-align:middle" onclick="window.open('pages/travel-emailer/index.html')" class="btn-1"><span>View Site</span></button>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<hr>
+							<div class="col-md-6 foot1">
+								<p>Page designed by:<span class="name"> Ashutosh Saini</span></p>
+							</div>
+							<div class="col-md-6 foot2">
+								<img onclick="window.open('https://www.facebook.com/sainiashutosh.408')" src="image/facebook.png">
+								<img onclick="window.open('https://www.linkedin.com/in/ashutosh-saini-5aa560105/')" src="image/linkedin.png">
+								<img onclick="window.open('https://twitter.com/AshutoshSaini4')"src="image/twitter.png">
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div id="loader"></div>
+			<script>
+function loader(){
+					document.getElementById("bg-1").style.display = "block";
+					document.getElementById("loader").style.display = "none";
+					}
+			function  op() {setTimeout(loader,3000)
+				}
+					op();
+					
+					
+												function fun1(){
+				window.open('index.html')
+				}
+			</script>
+	</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head> <title>BEST DEAL </title>
+<link rel="stylesheet" type="text/css" href="ui-css/main-css.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+<link rel="icon" href="image/favicon.PNG" type="image">
+</head>
+<body id="blur-bg">
+	<header>
+		<div class="logo">
+			<a href="#"><img src="image/logo.jpg"></a>
+		</div>
+		<div class="search">
+			<form>
+				<input type="text" name="search" placeholder="Search Here"> 
+				<div class="search-icon">
+					<a href="#"><img src="image/search.PNG"></a>
+				</div>
+			</form>
+		</div>
+		<div id="my-list" class="sign-btn">
+			<ul>
+				<li onclick="myFunction()"><a href="#">LogIn & SignUp</a>  </li>
+				
+				<li class="list-1"><a href="#">Profile</a> 
+					<ul>
+						<li class="list-2"><a href="#">My Profile</a> </li>
+						<li><a href="#">Your Order</a> </li>
+						<li><a href="#">Wishlist</a> </li>
+						<li><a href="#">Customer Care</a> </li>
+					</ul>
+			
+				</li>
+				<li><a href="#">Cart</a></li>
+			</ul>
+			
+		</div>
+	</header>
+	<section class="option">
+		<div class="box">
+		<ul>
+			<li><p><a href="#">Electronics</a> <i class="down"></p></i>
+				
+			</li>
+			<li><p><a href="#">TVs & Appliances</a> <i class="down"></i></p>
+				
+			</li>
+			<li><p><a href="#">Fashion</a> <i class="down"></i></p>
+			
+			</li>
+			<li><p><a href="#">Home & Furniture</a> <i class="down"></i></p>
+				
+			</li>
+			<li><p><a href="#">Toys & Babys</a> <i class="down"></i></p>
+		
+			</li>
+			<li><p><a href="#">Personal Care</a> <i class="down"></i></p>
+				
+			</li>
+			<li><p><a href="#">Sports</a> <i class="down"></i></p>
+			
+			</li>
+			<li><p><a href="#">Books & More</a> <i class="down"></i></p>
+			
+			</li>
+		</ul>
+		</div>
+	</section>
+	<section class="banner">
+		<img  id="result" src="image/banner/banner0.jpg">
+		<div id="panel" class="log">
+		
+		<div class="part1">
+			<h1> LOG IN</h1>
+			<p> Get access to your Orders, Wishlist and Recommendations.</p>
+			<img src="image/logo.jpg">
+		</div>
+		<div class="part2">
+		<a href="index.html"><img class="close" src="image/error.PNG"></a>
+			<form name="logform" onsubmit="return validateForm()" id="log-form">
+				<ul>
+					<li class="label-1">
+						<label>E-mail/Phone No.</label><br>
+							<input type="text" name="login" placeholder="Enter Your Email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="ABC123@ZZZZ.COM" required title="Valid email required"></br>
+					</li>
+					<li class="label-2">
+						<label>Password</label></br>
+							<input type="password"   pattern=".{6,}" name="password" placeholder="**********">
+					</li>
+				</ul>
+			</form>
+			<input type="submit" value="Log In" class="btn-1">
+			</br>
+			<button class="btn-2" id="myButton">New to Best Deal? New User</button>
+		</div>
+	</div>
+
+	</section>
+	
+	<section class="item">
+		<div class="item-1">
+			<ul>
+				<li><img src="image/item/item1.jpg"><br>
+					<div><p>Toothbrush Holder</p></div>
+				</li>
+				<li><img src="image/item/item2.jpg"><br><p>Shoes</p></li>
+				<li><img src="image/item/item3.jpg"><br><p>Watches</p></li>
+				<li><img src="image/item/item4.jpg"><br><p>Book & Novels</p></li>
+				<li><img src="image/item/item5.jpg"><br><p>Sticker</p></li>
+				<li><img src="image/item/item6.jpg"><br><p>GYM Weight</p></li>
+				
+			</ul>
+		</div>
+		
+	</section>
+	<div class="section2">
+			<div class="fashion">
+				<h1> Fashion</h1>
+					<div class="fas-list">
+						<ul>
+							<li><a href="#">Kids Wear</a></li>
+							<li><a href="#">Kids Footwear</a></li>
+							<li><a href="#">Woman's Wear</a></li>
+							<li><a href="#">Woman's footwear</a></li>
+							<li><a href="#">Men's Wear</a></li>
+							<li><a href="#">Men's Footwear</a></li>
+						
+						</ul>
+					</div>
+					
+					<div class="fas-img">
+						<div class="one"><img src="image/kids-wear.jpg"></div>
+						<div class="one"><img src="image/women-wear.jpg"></div>
+						<div class="one"><img src="image/men-wear.jpg"></div>
+					</div>
+			
+			</div>
+		</div>
+		<div class="section3">
+			<div class="electronics">
+				<h1>Electronics</h1>
+					<div class="elec-list">
+						<ul>
+							<li><a href="#">Home Appliances</a></li>
+							<li><a href="#">AC & Refrigerator</a></li>
+							<li><a href="#">Juicer & Mixer</a></li>
+							<li><a href="#">Kitchen</a></li>
+							<li><a href="#">Drill Machine</a></li>
+							<li><a href="#">Led Lights</a></li>
+						
+						</ul>
+					</div>
+					<div class="elec-img">
+						
+						<div class="one"><img src="image/ele1.jpg"></div>
+						<div class="one"><img src="image/ele2.jpg"></div>
+						<div class="one"><img src="image/ele3.jpg"></div>
+					
+					</div>
+			</div>
+		</div>
+		<div class="section4">
+			<div class="mob-phn">
+				<h1>Mobile Phones</h1>
+		<div class="mob-banner">
+			<div class="col">
+				<iframe id="lgVid" width="90%" height="300" src="https://www.youtube.com/embed/9m_K2Yg7wGQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div id="vidThumbs">
+					<img src="image/pic-0.jpg" id="0" width="20%" class="img-thumbnail">
+					<img src="image/pic-1.jpg" id="1" width="20%" class="img-thumbnail">
+					<img src="image/pic-2.jpg" id="2" width="20%" class="img-thumbnail">
+					<img src="image/pic-3.jpg" id="3" width="20%" class="img-thumbnail">
+				</div>
+			</div>
+			
+		</div>
+			<div id="brand-scroll" class="brand">
+					
+						<img  id="mobile" src="image/mob0.jpg"><br>
+							<button onclick="imgSlider(-1)">Preview</button>  <button onclick="imgSlider(1)">Next</button>
+			</div>
+		</div>
+			
+		<div class="footer">
+
+			<div class="sitemap">
+				<div class="sitemap1">
+					<h2>Site Map</h2>
+					<ul>
+						<li>
+						<a href="#">Home</a>
+						</li>
+						<li>
+						<a href="#">Services</a>
+						</li>
+						<li>
+						<a href="#">Industry</a>
+						</li>
+						<li>
+						<a href="#">Blog</a>
+						</li>
+						<li>
+						<a href="#">About Us</a>
+						</li>
+						<li>
+						<a href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			
+				<div class="social-icon">
+					<ul>
+						<li><a href="https://www.facebook.com"><img src="image/facebook.PNG"></a></li>
+						<li><a href="https://twitter.com"><img src="image/twitter.PNG"></a></li>
+						<li><a href="https://mail.google.com"><img src="image/google.PNG"></a></li>
+					</ul>
+					
+				</div>
+			</div>
+			
+			<div class="contact">
+				<h2> Contact Us</h2>
+					<ul>
+						<li>Tax, Accounting and QuickBook services.</li>
+						<li>E-Mail:- bestdeals.ind@deals.com</li>
+						<li> Customer care:-	0124 2266101</li>
+						<li><textarea id="txt" > Your Feedback...</textarea>
+						</li>
+					</ul>
+			</div>
+			<div class="map">
+				<div class="map1">
+					
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.4223261875404!2d77.12089591439822!3d28.706922182388475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d015fc7285ae3%3A0x6b0d619671ba366f!2sADMEC+Multimedia+Institute!5e0!3m2!1sen!2sin!4v1544189268670" width="98%" height="400" frameborder="0" style="border:3px" allowfullscreen></iframe>
+							<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+				</div>
+				
+				
+			</div>
+		</div>
+
+	
+<script src="js/main.js"> </script>
+</body>
+</html>
